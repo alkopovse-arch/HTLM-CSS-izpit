@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #1f1f1f;
+    --secondary-color: #333;
+    --tertiary-color: #ccc;
+    --primary-font-color: #fff;
+    --secondary-font-color: #E65F78;
+    --tertiary-font-color: #F7F7F7;
+    --primary-font: "Open Sans";
+}
+body {
+    background-color: var(--primary-color);
+    font-family: var(--primary-font), sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 160px;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 30px;
+}
+.header__nav-list-item {
+    color: var(--primary-font-color);
+    font-size: 1em;
+    padding: 10px 10px;
+}
