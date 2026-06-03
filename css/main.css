@@ -15,6 +15,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+/* header  */
 
 .header {
     max-height: 100px;
@@ -33,6 +34,9 @@ body {
     font-size: 1em;
     padding: 10px 10px;
 }
+/* e: header  */
+
+/* main  */
 
 .main {
     max-height: 924px;
@@ -83,6 +87,11 @@ body {
 
 .main__contact--text { font-size: 1.25em; }
 
+.main__contact--social { display: flex; gap: 20px; }
+
+/* e: main  */
+
+/* button */
 .btn {
     background-color: var(--secondary-font-color);
     width: 142px;
@@ -93,7 +102,10 @@ body {
     font-weight: 600;
     color: var(--primary-font-color);
 }
-.main__contact--social { display: flex; gap: 20px; }
+
+/* e: button */
+
+/* footer */
 
 .footer {
     display: flex;
@@ -103,3 +115,4 @@ body {
     color: var(--primary-font-color);
     padding: 20px;
 }
+/* e: footer */
